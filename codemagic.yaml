@@ -11,11 +11,11 @@ workflows:
       cocoapods: default
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: co.median.ios.nmnaldr
+        bundle_identifier:co.median.ios.nmnaldr
       vars:
         APP_NAME: Shifteaze
         BUNDLE_ID: co.median.ios.nmnaldr
-        APP_STORE_APPLE_ID: YOUR_APPLE_ID_NUMBER
+        APP_STORE_APPLE_ID: 6443553978
     scripts:
       - name: Check icon exists
         script: |
